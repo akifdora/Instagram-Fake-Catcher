@@ -39,3 +39,7 @@ pip install -r requirements.txt
 # Run the app / Uygulamayı çalıştır
 streamlit run app.py
 ```
+
+<p align="center"><img src="https://github.com/akifdora/Instagram-Fake-Catcher/blob/main/screenshot1.png?raw=true" alt="project-image"></p>
+<p align="center"><img src="https://github.com/akifdora/Instagram-Fake-Catcher/blob/main/screenshot2.png?raw=true" alt="project-image"></p>
+<p align="center"><img src="https://github.com/akifdora/Instagram-Fake-Catcher/blob/main/screenshot3.png?raw=true" alt="project-image"></p>
