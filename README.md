@@ -30,13 +30,8 @@ Bu proje, Instagram hesaplarının sahte veya şüpheli olup olmadığını taki
 
 ```bash
 # Clone the repo / Repoyu klonla
-git clone https://github.com/yourusername/instagram-fake-catcher.git
+git clone https://github.com/akifdora/instagram-fake-catcher.git
 cd instagram-fake-catcher
-
-# Create virtual environment (optional but recommended) / Sanal ortam oluştur (isteğe bağlı)
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
 
 # Install dependencies / Gereksinimleri yükle
 pip install -r requirements.txt
