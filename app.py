@@ -65,7 +65,6 @@ if st.button("Analiz Et") and username:
                 st.markdown(f"{profile.biography if profile.biography else 'Yok'}")
                 st.markdown(f"{profile.mediacount}")
 
-                # Biyografi uzunluğu durumu
                 bio_len = len(profile.biography.strip()) if profile.biography else 0
                 if bio_len == 0:
                     st.markdown("🟠 Biyografisi yok şüphe kokusunu aldın mı?")
@@ -74,13 +73,11 @@ if st.button("Analiz Et") and username:
                 else:
                     st.markdown("🟢 Biyografi uzunluğu normal görünüyor.")
 
-                # Profil fotoğrafı
                 if profile.profile_pic_url:
                     st.markdown(f"[Açmak için tıkla!]({profile.profile_pic_url})")
                 else:
                     st.markdown("Yok")
 
-                # Takipçi ve takip edilen sayısı ile oran
                 followers = profile.followers
                 followees = profile.followees
                 ratio = followers / followees if followees != 0 else 0
